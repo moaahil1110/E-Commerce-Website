@@ -28,7 +28,7 @@ This project implements the backend of an E-Commerce platform in C. It features 
 Compile the project with the following command:
 
 ```sh
-gcc -o ecommerce Main-Rec-Eng.c user-manage.c prod-manage.c browser-history.c Purchase-History.c -lm
+gcc -o ecommerce Recommendation-Engine.c User-Management.c Product-Management.c Browsing-History.c Purchase-History.c 
 ```
 ```sh
 ./ecommerce
