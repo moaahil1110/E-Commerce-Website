@@ -17,7 +17,7 @@ This project implements the backend of an E-Commerce platform in C. It features 
 - **Browsing History (Affan Khan)**  
   Tracks and stores users' product interaction data.
   
-- **Recommendation Engine & Product Management (Aahil Parson)**  
+- **Recommendation Engine & Product Management (@moaahil1110)**  
   Analyzes user data to generate personalized recommendations and manages product details, inventory, and categories.
 
 ## Data Structures
