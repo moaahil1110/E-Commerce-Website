@@ -25,11 +25,47 @@ This project implements the backend of an E-Commerce platform in C. It features 
 
 ## Compilation & Execution
 
-Compile the project with the following command:
+Since each module was developed separately, compile and run them individually:
 
+### 1. User Management Module
+Compile:
 ```sh
-gcc -o ecommerce Recommendation-Engine.c User-Management.c Product-Management.c Browsing-History.c Purchase-History.c 
+gcc -o user_manage User-Management.c -lm
 ```
 ```sh
-./ecommerce
+./user_manage
 ```
+### 2. Product Management Module
+Compile:
+```sh
+gcc -o prod_manage Product-Management.c -lm
+```
+```sh
+./prod_manage
+```
+### 3. Browsing History Module
+Compile:
+```sh
+gcc -o browser_history Browsing-History.c -lm
+```
+```sh
+./browser_history
+```
+
+### 4. Purchase History Module
+Compile:
+```sh
+gcc -o purchase_history Purchase-History.c -lm
+```
+```sh
+./purchase_history
+```
+### 5. Recommendation Engine Module
+Compile:
+```sh
+gcc -o recommend Recommendation-Engine.c -lm
+```
+```sh
+./recommend
+```
+
