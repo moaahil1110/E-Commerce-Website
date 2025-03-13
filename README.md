@@ -12,9 +12,9 @@
   - [Browsing History Module](#3-browsing-history-module)
   - [Purchase History Module](#4-purchase-history-module)
   - [Recommendation Engine Module](#5-recommendation-engine-module)
-- [Usage Examples](#usage-examples)
 - [Contribution Guidelines](#contribution-guidelines)
-- [License](#license)
+
+
 
 ## Overview
 
@@ -38,6 +38,11 @@ This project implements the backend of an E-Commerce platform in C. It features 
 
 - **Hash Tables**: Efficient storage and retrieval of user and product data.
 - **Doubly Linked List**: Manages purchase records.
+
+## Prerequisites
+- GCC (GNU Compiler Collection)
+- Ensure you have the necessary permissions to compile and run C programs on your machine.
+
 
 ## Compilation & Execution
 
@@ -85,3 +90,10 @@ gcc -o recommend Recommendation-Engine.c -lm
 ./recommend
 ```
 
+## Contribution Guidelines
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Create a new Pull Request.
