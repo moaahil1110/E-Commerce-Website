@@ -1,7 +1,5 @@
 # E-Commerce Platform with Recommendation System
-
-**Team 2 | DSA JackFruit’s Problem (Section: F)**
-
+**Final Project in Data Structures Subject**
 ## Overview
 
 This project implements the backend of an E-Commerce platform in C. It features a recommendation engine that provides personalized product suggestions based on users' browsing and purchase history. The system leverages **hash tables** for fast user and product lookups and uses a **doubly linked list** to manage purchase transactions.
