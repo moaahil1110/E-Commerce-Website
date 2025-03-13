@@ -1,5 +1,21 @@
 # E-Commerce Platform with Recommendation System
 **Final Project in Data Structures Subject**
+
+## Table of Contents
+- [Overview](#overview)
+- [Modules & Responsibilities](#modules--responsibilities)
+- [Data Structures](#data-structures)
+- [Prerequisites](#prerequisites)
+- [Compilation & Execution](#compilation--execution)
+  - [User Management Module](#1-user-management-module)
+  - [Product Management Module](#2-product-management-module)
+  - [Browsing History Module](#3-browsing-history-module)
+  - [Purchase History Module](#4-purchase-history-module)
+  - [Recommendation Engine Module](#5-recommendation-engine-module)
+- [Usage Examples](#usage-examples)
+- [Contribution Guidelines](#contribution-guidelines)
+- [License](#license)
+
 ## Overview
 
 This project implements the backend of an E-Commerce platform in C. It features a recommendation engine that provides personalized product suggestions based on users' browsing and purchase history. The system leverages **hash tables** for fast user and product lookups and uses a **doubly linked list** to manage purchase transactions.
